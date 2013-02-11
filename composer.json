@@ -1,0 +1,30 @@
+{
+    "name": "silvester/graduation-thesis",
+    "repositories": [
+    	{
+    		"type": "vcs",
+    		"url" : "https://github.com/silvester/graduation-thesis"
+    	}
+    ],
+    "description": "Files that are occuring my thesis.",
+    "minimum-stability": "dev",
+    "type" : "module",
+    "homepage" : "https://github.com/silvester/",
+    "keywords" : ["php"],
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Silvester Maraz",
+            "email": "silvester.maraz@reverse.si",
+            "homepage": "http://maraz.org"
+        }
+    ],
+    "require": {
+		"php": ">=5.3.3"
+    },   
+    "autoload": {
+        "psr-0": {
+            "GraduationThesis": "src/"
+        }
+    }
+}

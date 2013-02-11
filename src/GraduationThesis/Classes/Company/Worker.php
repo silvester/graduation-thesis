@@ -1,5 +1,5 @@
 <?php
-namespace Company;
+namespace GraduationThesis\Classes\Company;
 
 class Worker // the class
 {
@@ -10,12 +10,12 @@ class Worker // the class
 	{
 		$this->name = $name;
 		$this->surname = $surname;
-		echo 'Object constructed: ', $this->name.' '.$this->surname;
+		echo 'Object constructed: ', $this->name.' '.$this->surname."\n";
 	}
 
 	public function __destruct()
 	{
-		echo 'Object destructed: ', $this->name.' '.$this->surname;
+		echo 'Object destructed: ', $this->name.' '.$this->surname."\n";
 	}
 	
 }
